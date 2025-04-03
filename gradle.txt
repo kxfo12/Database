@@ -1,0 +1,9 @@
+    buildFeatures{
+        viewBinding true
+        dataBinding true
+    }
+
+    implementation "androidx.room:room-runtime:2.6.1"
+    annotationProcessor "androidx.room:room-compiler:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.5.0" //do zapisu danych
+    implementation "androidx.lifecycle:lifecycle-livedata:2.5.0" //do obserwowania danych
